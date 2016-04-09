@@ -1,0 +1,27 @@
+{
+    "name": "node-json-rpc-client",
+    "description": "JSON RPC Client for NodeJs",
+    "version": "1.0.0",
+    "bin": {
+        "rpcclient": "./server/server.js"
+    },
+    "scripts": {
+        "start": "node ./server/server.js",
+        "test": "mocha ./test/server.js",
+        "debug": "nodemon ./server/server.js"
+    },
+    "dependencies": {
+       
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "nodemon": "latest",
+        "sinon": "^1.17.3"
+
+    },
+    "repository": {
+        
+    },
+    "author": "Boris Karastanev",
+    "license": "MIT"
+}
